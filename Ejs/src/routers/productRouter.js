@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { productNotFound, productWasDeleted } from "../consts/index.js";
+import { productNotFound } from "../consts/index.js";
 import { ContenedorMemoria } from "../api/Contenedor.js";
 
 const productRouter = Router();
